@@ -9,6 +9,18 @@ public class Animales {
         this.edad = edad;
         this.peso = peso;
         this.raza = raza;
+
+    }
+    public void comer() {
+        System.out.println(nombre + " esta comiendo");
+    }
+
+    public void dormir() {
+        System.out.println(nombre + " esta durmiendo");
+    }
+
+    public void hacerSonido() {
+        System.out.println(nombre + " hace un sonido");
     }
 
     public String getNombre() {
