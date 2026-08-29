@@ -7,13 +7,16 @@ public class Constructor {
 
 
         System.out.println("Nombre del leon: " + leon.getNombre());
-        System.out.println("Edad del leon: " + leon.getEdad() + " anos");
+        System.out.println("Edad del leon: " + leon.getEdad() + " años");
+        leon.comer();
 
         System.out.println("Nombre del lobo: " + lobo.getNombre());
-        System.out.println("Edad del lobo: " + lobo.getEdad() + " anos");
+        System.out.println("Edad del lobo: " + lobo.getEdad() + " años");
+        lobo.dormir();
 
         System.out.println("Nombre del buho: " + buho.getNombre());
-        System.out.println("Edad del buho: " + buho.getEdad() + " anos");
+        System.out.println("Edad del buho: " + buho.getEdad() + " años");
+        buho.comer();
     }
 }
 
